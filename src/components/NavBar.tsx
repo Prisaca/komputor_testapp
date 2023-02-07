@@ -199,8 +199,8 @@ export default function NavBar() {
                     </Disclosure.Button>
                   ))}
                   <Disclosure.Button
-                    // eslint-disable-next-line @typescript-eslint/no-misused-promises
                     key={"sign out"}
+                    // eslint-disable-next-line @typescript-eslint/no-misused-promises
                     onClick={() => signOut()}
                     className="block px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-800"
                   >
